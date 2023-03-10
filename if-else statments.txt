@@ -1,0 +1,42 @@
+void main() {
+ // if-else statements
+ 
+// single statements (if)
+  int x= 10;
+  if (x==10){
+    print ("x wey la egtahay: $x");
+  }
+  
+  // if else statements
+  int z= 20;
+  int y= 15;
+  if (z<y){
+    print ("x is less then y: $x");
+  }
+  else {
+    print("x is graeter the y: $x");
+  }
+
+  // if-else-if(multible statement)
+  int x=10;
+  int y=15;
+  if (x==y){
+    print ("x is equel to y: $x");
+    }
+  else if(x > y){
+    print ("x is greater than y: $x");
+  }
+  
+ else if(x < y){
+    print ("x is less than y: $x");
+  }
+  else {
+    print ("y is less than x: $x");
+  }
+  
+  // shortcut if-else
+  
+  x < y?print("true"):print("false");
+
+}
+  

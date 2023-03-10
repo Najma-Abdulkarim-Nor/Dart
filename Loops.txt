@@ -1,0 +1,21 @@
+void main() {
+
+//   LOOPS
+  
+  int x=5;
+  while(x<10){
+    print(x);
+    x++;
+  }
+  for(int a=0; a<10; a+1){
+    print("hello wold");
+  }
+   List data =["najma","nasteha","samiira"];
+  for(var elment in data){
+    print("waa magacyo gabdheed: $elment");
+  }
+
+ for (int i = 0; i < 5; i++) {
+    print('hello ${i + 1}');
+   }
+ }

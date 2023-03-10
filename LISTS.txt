@@ -1,0 +1,14 @@
+void main ()
+{ 
+// LISTS
+
+   List data = ["namja","nasteha","samira"];
+  data.add ("abdalle");
+  data.add("abdirahman");
+  data.remove("namja");
+  print (data);
+
+//   same data type List
+  List <String> sameData =["halima","faduma","hasan"];
+  print (sameData);
+  }

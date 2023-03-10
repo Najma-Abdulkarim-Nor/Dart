@@ -1,0 +1,21 @@
+void main() {
+// classes
+  person personOne =person() ;
+  print (personOne.name);
+  print (personOne.age);
+  guri gurYaalo = guri();
+  print (gurYaalo.name);
+  print (gurYaalo.qiimo);
+  
+  
+}
+
+class person{
+  String name = "aisha";
+  int age = 13;
+  
+}
+class guri{
+  String name = "albaab";
+  int qiimo = 1000 ;
+}

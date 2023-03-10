@@ -1,0 +1,15 @@
+DATA TYPE
+void main()
+{
+ String name = "My names Najma abdulkarim nor";
+	print(name);
+
+ int age = 21;
+	print ("my age is: $age");
+ bool isnight= true;
+	print(isnight);
+ var fam = 74;
+	 print(fam);
+ dynamic num = "saaro waa dulmi leey";
+	print (num); 
+} 

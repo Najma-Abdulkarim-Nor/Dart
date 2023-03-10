@@ -1,0 +1,48 @@
+void main() {
+// Function Constructor
+  // qiimaha marka aad gadaal uku soo shubayso istic maal variablekan
+  //late String name;
+  
+  
+  person personOne = person("Najma", 21);
+  print(personOne.name);
+  print(personOne.age);
+  person personTwo = person("Nasteeha", 23);
+  print(personTwo.name);
+  print(personTwo.age);
+  personOne.work();
+  
+  superClass personThree = superClass("maryama",43);
+  print(personThree.name);
+   print(personThree.age);
+  personThree.info();
+  
+  
+}
+class person{
+    String? name ;
+     int? age;
+  person (String name , int age){
+    this.name = name;
+    this.age = age;
+  }
+  
+  void work(){
+    print ("Waqtigii uku fiicnaayeen bey ku jiraan");
+  }
+    
+  }
+
+//inheritence class
+//extend = keyword ka loo isticmaalo
+class superClass extends person {
+  superClass (String name, int age):
+  super ( name,  age);
+  
+  void info(){
+    print ("that is great information");
+  }
+  
+}
+
+  

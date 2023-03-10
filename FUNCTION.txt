@@ -1,0 +1,27 @@
+//   FUNCTION
+void main (){
+   String name = getName();
+   print(name);
+   String name2 = getName();
+   print(name2);
+
+   int num = getNum();
+   print(num);
+
+}
+
+ String getName()
+   {
+     return 'Najma abdulkarim nor';
+  
+    
+   }
+int getNumber()
+   {
+	return (5*5)/5;
+
+    }
+
+     // shortcut of function
+
+	String getName() => "najma";
